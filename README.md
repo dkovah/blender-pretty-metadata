@@ -4,10 +4,10 @@ A simple blender plugin to edit object metadata in a human-readable way. The met
 
 ## Usage:
 1) Install the plugin\
-Open Blender and go to Edit -> Preferences -> Addons -> Install and select the plugin file 
+Open Blender and go to Edit -> Preferences -> Addons -> Install and select the plugin file.
 
 2) Select the JSON configuration file\
-After installing it a new option will be shown in the plugin options to select the JSON file with the project metadata structure.
+After installing it a new option will be visible on the plugin preferences menu to select the JSON file with the project metadata structure.
 
 3) Edit the objects metadata\
 After selecting a suitable JSON file, a new menu called "Metadata" will be added to the properties of all the objects in the scene with fields that will vary depending on the JSON structure.
