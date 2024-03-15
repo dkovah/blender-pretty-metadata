@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "pickable",
+      "label": "Pickable",
+      "description": "A pickable item",
+      "attributes": [
+        {
+          "id": "name",
+          "label": "Name",
+          "type": "string"
+        },
+        {
+          "id": "size",
+          "label": "Size",
+          "type": "enum",
+          "options": [
+            {
+              "id": "big",
+              "label": "Big",
+              "description": "This is a really big item"
+            },
+            {
+              "id": "medium",
+              "label": "Medium"
+            },
+            {
+              "id": "small",
+              "label": "Small"
+            }
+          ]
+        },
+        {
+          "id": "sell_value",
+          "label": "Sell value",
+          "type": "int"
+        },
+        {
+          "id": "hiddenByDefault",
+          "label": "Hidden by default (pickable)",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "id": "door",
+      "label": "Door",
+      "attributes": [
+        {
+          "id": "weight",
+          "label": "Weight",
+          "type": "float"
+        },
+        {
+          "id": "locked_by_default",
+          "label": "Locked by default",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}
