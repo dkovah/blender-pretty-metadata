@@ -12,7 +12,7 @@ After installing it a new option will be visible on the plugin preferences menu 
 3) Edit the objects metadata\
 After selecting a suitable JSON file, a new menu called "Metadata" will be added to the properties of all the objects in the scene with fields that will vary depending on the JSON structure.
 
-4) (Optional) Export the project to a metadata-compatible format, like GLFT.\
+4) (Optional) Export the project to a metadata-compatible format, like GLTF.\
 Be sure to check the option "Include -> Data -> Custom Properties" (wich is disabled by defalut) on the export settings if exporting to GLTF. Other formats should have similar options.
 
 ## JSON Structure:
