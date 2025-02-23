@@ -45,7 +45,7 @@ The JSON configuration file should look something like this:
           "id": "some_boolean_attribute",
           "label": "An boolean atribute for this type",
           "type": "boolean"
-        }
+        },
         {
           "id": "some_enum_attribute",
           "label": "Types can also have an enum as attribute",
@@ -58,10 +58,10 @@ The JSON configuration file should look something like this:
             },
             {
               "id": "other_enum_element_id",
-              "label": "Other element",
-            },
+              "label": "Other element"
+            }
           ]
-        },
+        }
       ]
     },
     {
